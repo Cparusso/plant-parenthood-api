@@ -1,0 +1,3 @@
+class UserPlantsController < ApplicationController
+
+end
