@@ -33,7 +33,7 @@ alicia = User.create(
 puts "Growing Plants"
 pilea = Plant.create(
     picture: "https://images-na.ssl-images-amazon.com/images/I/71Mu-27B53L._SX425_.jpg",
-    binomial_name: "Pilea Peperomioides",
+    binomial_name: "Pilea peperomioides",
     common_name: "Coin Plant / Chinese Money Plant",
     water: "Water every 2-3 weeks, allowing soil to dry out between waterings. Increase frequency with increased light.",
     light: "Thrives in bright direct light, but can tolerate bright to medium indirect light.",
@@ -44,7 +44,7 @@ pilea = Plant.create(
 )
 zz = Plant.create(
     picture: "https://cdn.shopify.com/s/files/1/1706/1307/products/Zamioculcas-zamiifolia-ZZ-Plant.jpg?v=1535278807",
-    binomial_name: "Zamioculcas Zamiifolia",
+    binomial_name: "Zamioculcas zamiifolia",
     common_name: "ZZ Plant",
     water: "Water every 2-3 weeks, allowing soil to dry out between waterings. Increase frequency with increased light.",
     light: "Thrives in medium to low indirect light. Can tolerate bright indirect light. Not suited for intense, direct sun.",
@@ -55,7 +55,7 @@ zz = Plant.create(
 )
 snake = Plant.create(
     picture: "https://images-na.ssl-images-amazon.com/images/I/51YIe2wBxlL._SX425_.jpg",
-    binomial_name: "Sansevieria Trifasciata",
+    binomial_name: "Sansevieria trifasciata",
     common_name: "Snake Plant / Mother In-law's Tongue",
     water: "Water every 2-3 weeks, allowing soil to dry out between waterings. Increase frequency with increased light.",
     light: "Thrives in medium to bright indirect light, but can tolerate low indirect light.",
@@ -66,7 +66,7 @@ snake = Plant.create(
 )
 pilea2 = Plant.create(
     picture: "https://images-na.ssl-images-amazon.com/images/I/71Mu-27B53L._SX425_.jpg",
-    binomial_name: "Pilea Peperomioides",
+    binomial_name: "Pilea peperomioides",
     common_name: "Coin Plant / Chinese Money Plant",
     water: "Water every 2-3 weeks, allowing soil to dry out between waterings. Increase frequency with increased light.",
     light: "Thrives in bright direct light, but can tolerate bright to medium indirect light.",
@@ -77,7 +77,7 @@ pilea2 = Plant.create(
 )
 zz2 = Plant.create(
     picture: "https://cdn.shopify.com/s/files/1/1706/1307/products/Zamioculcas-zamiifolia-ZZ-Plant.jpg?v=1535278807",
-    binomial_name: "Zamioculcas Zamiifolia",
+    binomial_name: "Zamioculcas zamiifolia",
     common_name: "ZZ Plant",
     water: "Water every 2-3 weeks, allowing soil to dry out between waterings. Increase frequency with increased light.",
     light: "Thrives in medium to low indirect light. Can tolerate bright indirect light. Not suited for intense, direct sun.",
@@ -88,7 +88,7 @@ zz2 = Plant.create(
 )
 snake2 = Plant.create(
     picture: "https://images-na.ssl-images-amazon.com/images/I/51YIe2wBxlL._SX425_.jpg",
-    binomial_name: "Sansevieria Trifasciata",
+    binomial_name: "Sansevieria trifasciata",
     common_name: "Snake Plant / Mother In-law's Tongue",
     water: "Water every 2-3 weeks, allowing soil to dry out between waterings. Increase frequency with increased light.",
     light: "Thrives in medium to bright indirect light, but can tolerate low indirect light.",
@@ -99,7 +99,7 @@ snake2 = Plant.create(
 )
 pilea3 = Plant.create(
     picture: "https://images-na.ssl-images-amazon.com/images/I/71Mu-27B53L._SX425_.jpg",
-    binomial_name: "Pilea Peperomioides",
+    binomial_name: "Pilea peperomioides",
     common_name: "Coin Plant / Chinese Money Plant",
     water: "Water every 2-3 weeks, allowing soil to dry out between waterings. Increase frequency with increased light.",
     light: "Thrives in bright direct light, but can tolerate bright to medium indirect light.",
@@ -110,7 +110,7 @@ pilea3 = Plant.create(
 )
 zz3 = Plant.create(
     picture: "https://cdn.shopify.com/s/files/1/1706/1307/products/Zamioculcas-zamiifolia-ZZ-Plant.jpg?v=1535278807",
-    binomial_name: "Zamioculcas Zamiifolia",
+    binomial_name: "Zamioculcas zamiifolia",
     common_name: "ZZ Plant",
     water: "Water every 2-3 weeks, allowing soil to dry out between waterings. Increase frequency with increased light.",
     light: "Thrives in medium to low indirect light. Can tolerate bright indirect light. Not suited for intense, direct sun.",
@@ -121,7 +121,7 @@ zz3 = Plant.create(
 )
 snake3 = Plant.create(
     picture: "https://images-na.ssl-images-amazon.com/images/I/51YIe2wBxlL._SX425_.jpg",
-    binomial_name: "Sansevieria Trifasciata",
+    binomial_name: "Sansevieria trifasciata",
     common_name: "Snake Plant / Mother In-law's Tongue",
     water: "Water every 2-3 weeks, allowing soil to dry out between waterings. Increase frequency with increased light.",
     light: "Thrives in medium to bright indirect light, but can tolerate low indirect light.",
