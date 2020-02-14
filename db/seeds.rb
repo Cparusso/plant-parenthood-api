@@ -20,11 +20,11 @@ charlie = User.create(
     date_of_birth: "06111992",
     picture: "placeholder"
 )
-alicia = User.create(
-    first_name: "Alicia",
-    last_name: "Whitney",
-    username: "alicia",
-    email: "alicia@gmail.com",
+tom = User.create(
+    first_name: "Tom",
+    last_name: "Powers",
+    username: "tom",
+    email: "tom@gmail.com",
     password: "123",
     date_of_birth: "06111992",
     picture: "placeholder"
