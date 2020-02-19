@@ -4,8 +4,13 @@ class UserPlantsController < ApplicationController
   # end
 
   def create
-    userPlant = UserPlant.create(user_plant_params)
-    render json: userPlant, status: :created
+    user_plant = UserPlant.create(user_plant_params)
+    render json: user_plant, status: :created
+  end
+
+  def destroy
+    user_plant = UserPlant.find(params[:id])
+    user_plant.destroy
   end
 
   private
