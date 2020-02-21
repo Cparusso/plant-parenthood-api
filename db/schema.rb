@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_29_133520) do
+ActiveRecord::Schema.define(version: 2020_02_21_202416) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -55,13 +55,14 @@ ActiveRecord::Schema.define(version: 2019_10_29_133520) do
   create_table "user_plants", force: :cascade do |t|
     t.string "picture"
     t.string "given_name"
-    t.integer "date_received"
+    t.datetime "date_received"
     t.text "bio"
     t.bigint "plant_id"
     t.bigint "user_id"
     t.bigint "parent_plant_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.datetime "date_watered"
     t.index ["parent_plant_id"], name: "index_user_plants_on_parent_plant_id"
     t.index ["plant_id"], name: "index_user_plants_on_plant_id"
     t.index ["user_id"], name: "index_user_plants_on_user_id"

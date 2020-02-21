@@ -135,7 +135,8 @@ puts "Giving plants to users"
 pepper = UserPlant.create(
     picture: "placeholder",
     given_name: "Pepper",
-    date_received: "071819",
+    date_received: DateTime.strptime("09/14/2019 7:30", "%m/%d/%Y %H:%M"),
+    date_watered: DateTime.strptime("09/14/2019 7:30", "%m/%d/%Y %H:%M"),
     bio: "This is the most exciting plant to watch because it never stops growing.",
     plant_id: pilea.id,
     user_id: charlie.id
@@ -143,7 +144,8 @@ pepper = UserPlant.create(
 roni = UserPlant.create(
     picture: "placeholder",
     given_name: "Roni",
-    date_received: "071819",
+    date_received: DateTime.strptime("07/08/2019 8:00", "%m/%d/%Y %H:%M"),
+    date_watered: DateTime.strptime("07/08/2019 8:00", "%m/%d/%Y %H:%M"),
     bio: "This is Pepper's first baby.",
     plant_id: pilea.id,
     user_id: charlie.id,
