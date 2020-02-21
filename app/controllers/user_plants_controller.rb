@@ -4,7 +4,9 @@ class UserPlantsController < ApplicationController
   # end
 
   def create
-    user_plant = UserPlant.create(user_plant_params)
+    todays_date = DateTime.now
+    dates = {"date_received" => todays_date, "date_watered" => todays_date}
+    user_plant = UserPlant.create(user_plant_params.merge(dates))
     render json: user_plant, status: :created
   end
 
